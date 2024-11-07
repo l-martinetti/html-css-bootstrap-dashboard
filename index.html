@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.css' integrity='sha512-VcyUgkobcyhqQl74HS1TcTMnLEfdfX6BbjhH8ZBjFU9YTwHwtoRtWSGzhpDVEJqtMlvLM2z3JIixUOu63PNCYQ==' crossorigin='anonymous'/><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.css' integrity='sha512-8BU3emz11z9iF75b10oPjjpamM4Mz23yQFQymbtwyPN3mNWHxpgeqyrYnkIUP6A8KyAj5k2p3MiYLtYqew7gIw==' crossorigin='anonymous'/>
     <title>Document</title>
 </head>
@@ -41,7 +41,7 @@
     </header>
     <main>
         <div class="container my-5">
-            <div class="row">
+            <div class="row row-cols-1">
                 <!-- main title -->
                 <div class="col">
                     <div class="d-flex justify-content-between col-12 col-lg-8">
@@ -56,7 +56,7 @@
                         <thead>
                         <tr>
                             <th scope="col">Titolo</th>
-                            <th scope="col" class="d-none d-md-block">Data prestito</th>
+                            <th scope="col" class="d-none d-sm-table-cell">Data prestito</th>
                             <th scope="col">Stato</th>
                             <th scope="col" class="text-center">Azioni</th>
                         </tr>
@@ -64,7 +64,7 @@
                         <tbody>
                         <tr>
                             <td>I pilastri della terra</td>
-                            <td class="d-none d-md-block">Otto</td>
+                            <td class="d-none d-sm-table-cell">Otto</td>
                             <td><span class="badge bg-success">Disponibile</span></td>
                             <td class="d-flex">
                                 <button type="button" class="btn text-secondary border-secondary me-1"><i class="fa-solid fa-pen"></i></button>
@@ -73,7 +73,7 @@
                         </tr>
                         <tr>
                             <td>I promessi sposi</td>
-                            <td class="d-none d-md-block">Thornton</td>
+                            <td class="d-none d-sm-table-cell">Thornton</td>
                             <td><span class="badge bg-success">Disponibile</span></td>
                             <td class="d-flex">
                                 <button type="button" class="btn text-secondary border-secondary me-1"><i class="fa-solid fa-pen"></i></button>
@@ -82,7 +82,7 @@
                         </tr>
                         <tr>
                             <td>Il signore degli anelli</td>
-                            <td class="d-none d-md-block">the Bird</td>
+                            <td class="d-none d-sm-table-cell">the Bird</td>
                             <td><span class="badge bg-warning">In prestito</span></td>
                             <td class="d-flex">
                                 <button type="button" class="btn text-secondary border-secondary me-1"><i class="fa-solid fa-pen"></i></button>
@@ -91,7 +91,7 @@
                         </tr>
                         <tr>
                             <td>Harry potter e la pietra filosofale</td>
-                            <td class="d-none d-md-block">the Bird</td>
+                            <td class="d-none d-sm-table-cell">the Bird</td>
                             <td><span class="badge bg-success">Disponibile</span></td>
                             <td class="d-flex">
                                 <button type="button" class="btn text-secondary border-secondary me-1"><i class="fa-solid fa-pen"></i></button>
@@ -100,7 +100,7 @@
                         </tr>
                         <tr>
                             <td>Il codice Da Vinci</td>
-                            <td class="d-none d-md-block">Otto</td>
+                            <td class="d-none d-sm-table-cell">Otto</td>
                             <td><span class="badge bg-danger">Non disponibile</span></td>
                             <td class="d-flex">
                                 <button type="button" class="btn text-secondary border-secondary me-1"><i class="fa-solid fa-pen"></i></button>
@@ -109,7 +109,7 @@
                         </tr>
                         <tr>
                             <td>Shining</td>
-                            <td class="d-none d-md-block">Thornton</td>
+                            <td class="d-none d-sm-table-cell">Thornton</td>
                             <td><span class="badge bg-success">Disponibile</span></td>
                             <td class="d-flex">
                                 <button type="button" class="btn text-secondary border-secondary me-1"><i class="fa-solid fa-pen"></i></button>
@@ -118,7 +118,7 @@
                         </tr>
                         <tr>
                             <td>La divina commedia</td>
-                            <td class="d-none d-md-block">the Bird</td>
+                            <td class="d-none d-sm-table-cell">the Bird</td>
                             <td><span class="badge bg-warning">In prestito</span></td>
                             <td class="d-flex">
                                 <button type="button" class="btn text-secondary border-secondary me-1"><i class="fa-solid fa-pen"></i></button>
@@ -127,7 +127,7 @@
                         </tr>
                         <tr>
                             <td>Il trono di spade</td>
-                            <td class="d-none d-md-block">the Bird</td>
+                            <td class="d-none d-sm-table-cell">the Bird</td>
                             <td><span class="badge bg-success">Disponibile</span></td>
                             <td class="d-flex">
                                 <button type="button" class="btn text-secondary border-secondary me-1"><i class="fa-solid fa-pen"></i></button>
@@ -136,7 +136,7 @@
                         </tr>
                         <tr>
                             <td>Il mondo di Sofia</td>
-                            <td class="d-none d-md-block">Otto</td>
+                            <td class="d-none d-sm-table-cell">Otto</td>
                             <td><span class="badge bg-danger">Non disponibile</span></td>
                             <td class="d-flex">
                                 <button type="button" class="btn text-secondary border-secondary me-1"><i class="fa-solid fa-pen"></i></button>
@@ -145,7 +145,7 @@
                         </tr>
                         <tr>
                             <td>Le cronache di Narnia: il leone, la strega e l'armadio</td>
-                            <td class="d-none d-md-block">Thornton</td>
+                            <td class="d-none d-sm-table-cell">Thornton</td>
                             <td><span class="badge bg-warning">In prestito</span></td>
                             <td class="d-flex">
                                 <button type="button" class="btn text-secondary border-secondary me-1"><i class="fa-solid fa-pen"></i></button>
@@ -154,7 +154,7 @@
                         </tr>
                         <tr>
                             <td>Il piccolo principe</td>
-                            <td class="d-none d-md-block">the Bird</td>
+                            <td class="d-none d-sm-table-celld-none d-sm-table-cell">the Bird</td>
                             <td><span class="badge bg-success">Disponibile</span></td>
                             <td class="d-flex">
                                 <button type="button" class="btn text-secondary border-secondary me-1"><i class="fa-solid fa-pen"></i></button>
@@ -163,7 +163,7 @@
                         </tr>
                         <tr>
                             <td>La storia infinita</td>
-                            <td class="d-none d-md-block">the Bird</td>
+                            <td class="d-none d-sm-table-cell">the Bird</td>
                             <td><span class="badge bg-success">Disponibile</span></td>
                             <td class="d-flex">
                                 <button type="button" class="btn text-secondary border-secondary me-1"><i class="fa-solid fa-pen"></i></button>
@@ -175,6 +175,22 @@
                 </div>
                 </div>  
                 <!-- /main table -->
+                <!-- bonus -->
+                 <div class="row">
+                    <table class="table table-striped table-bordered">
+                        <tbody>
+                          <tr>
+                            <td>
+                                <h3>Todo</h3>
+                            </td>
+                          </tr>
+                          <tr> 
+                            <td>Larry</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                 </div>
+                <!-- /bonus -->
             </div>
         </div>
     </main>
