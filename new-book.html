@@ -37,9 +37,9 @@
     <!-- /nav bar -->
      <main>
         <div class="container">
-            <h1 class="fw-semibold my-4">Nuovo Libro</h1>
-            <!-- author section -->
+            <h1 class="fw-semibold my-3">Nuovo Libro</h1>
             <form action="#">
+                <!-- author section -->
                 <div class="row">
                     <div class="col col-6">
                         <label for="first-name" class="form-label fw-semibold">Nome Autore</label>
@@ -49,15 +49,35 @@
                         <label for="last-name" class="form-label fw-semibold">Cognome Autore</label>
                         <input type="text" class="form-control" id="last-name" placeholder="Inserisci il cognome dell'autore">   
                     </div>
-                    <div class="col col-12 my-4">
+                    <div class="col col-12 my-3">
                         <label for="book" class="form-label fw-semibold">Titolo</label>
                         <input type="text" class="form-control" id="book" placeholder="Inserisci il titolo del libro"> 
                         <div id="book" class="form-text">Titolo versione italiana</div>
                     </div>
                 </div>
+                <!-- /author section -->
+                <!-- book section -->
+                 <div class="row row-cols-1 row-cols-lg-3">
+                    <div class="col mb-3">
+                        <label for="genre" class="form-label fw-semibold">Genere</label>
+                        <select id="genre" class="form-select">
+                            <option selected>Scegli il genere</option>
+                            <option value="1">Fantasy</option>
+                            <option value="2">Thriller</option>
+                            <option value="3">Romanzo Storico</option>
+                          </select>
+                    </div>
+                    <div class="col mb-3">
+                        <label for="pubblication-date" class="form-label fw-semibold">Anno di Pubblicazione</label>
+                        <input type="text" class="form-control" id="pubblication-date" placeholder="Inserisci l'anno">
+                    </div>
+                    <div class="col mb-3">
+                        <label for="isbn" class="form-label fw-semibold">ISBN#</label>
+                        <input type="text" class="form-control" id="isbn" placeholder="Inserisci il codice ISBN#">
+                    </div>
+                 </div>
+                <!-- /book section -->
             </form>
-            <!-- /author section -->
-             
         </div>
      </main>
 </body>
