@@ -7,7 +7,33 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-    </header>
+     <!-- nav bar -->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark position-relative">
+        <a class="navbar-brand" style="width: 50px;" href="#"><img class="img-fluid ms-3" src="assets/img/duck.png" alt=""></a>
+        <button class="navbar-toggler me-3" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ms-3" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"> <span>Catalogo Libri</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Anagrafica Utenti</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Storico Prestiti</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Help</a>
+            </li>
+          </ul>
+          <form class="form-inline position-absolute end-0 me-3 d-flex">
+            <input class="form-control " type="search" placeholder="Cerca..." aria-label="Search">
+            <button class="btn btn-outline-secondary my-2 my-sm-0 ms-2 text-light border-light" type="submit">Cerca</button>
+          </form>
+        </div>
+      </nav>
+    <!-- /nav bar -->
 </body>
 </html>
