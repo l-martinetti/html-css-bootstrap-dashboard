@@ -37,7 +37,7 @@
     <!-- /nav bar -->
      <main>
         <div class="container">
-            <h1 class="fw-semibold my-3">Nuovo Libro</h1>
+            <h1 class="fw-semibold my-3 my-lg-4">Nuovo Libro</h1>
             <form action="#">
                 <!-- author section -->
                 <div class="row">
@@ -49,7 +49,7 @@
                         <label for="last-name" class="form-label fw-semibold">Cognome Autore</label>
                         <input type="text" class="form-control" id="last-name" placeholder="Inserisci il cognome dell'autore">   
                     </div>
-                    <div class="col col-12 my-3">
+                    <div class="col col-12 my-3 my-lg-4">
                         <label for="book" class="form-label fw-semibold">Titolo</label>
                         <input type="text" class="form-control" id="book" placeholder="Inserisci il titolo del libro"> 
                         <div id="book" class="form-text">Titolo versione italiana</div>
@@ -57,8 +57,8 @@
                 </div>
                 <!-- /author section -->
                 <!-- book section -->
-                 <div class="row row-cols-1 row-cols-lg-3">
-                    <div class="col mb-3">
+                <div class="row row-cols-1 row-cols-lg-3">
+                    <div class="col mb-3 mb-lg-4">
                         <label for="genre" class="form-label fw-semibold">Genere</label>
                         <select id="genre" class="form-select">
                             <option selected>Scegli il genere</option>
@@ -71,12 +71,24 @@
                         <label for="pubblication-date" class="form-label fw-semibold">Anno di Pubblicazione</label>
                         <input type="text" class="form-control" id="pubblication-date" placeholder="Inserisci l'anno">
                     </div>
-                    <div class="col mb-3">
+                    <div class="col mb-3 mb-lg-4">
                         <label for="isbn" class="form-label fw-semibold">ISBN#</label>
                         <input type="text" class="form-control" id="isbn" placeholder="Inserisci il codice ISBN#">
                     </div>
-                 </div>
+                </div>
                 <!-- /book section -->
+                <hr>
+                <!-- bottom section -->
+                <label for="note" class="form-label fw-semibold">Note</label>
+                <textarea name="book-note" id="note" class="form-control" placeholder="Inserisci eventuali note sul libro" style="height: 100px;"></textarea>
+                <div class="form-check my-3 my-lg-4">
+                    <input class="form-check-input" type="checkbox" value="" id="availability">
+                    <label class="form-check-label" for="availability">
+                        Disponibile anche in digitale
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary mb-3">Aggiungi libro</button>
+                <!-- /bottom section -->
             </form>
         </div>
      </main>
